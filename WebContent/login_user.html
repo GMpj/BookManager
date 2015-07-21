@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>图书馆图书管理用户系统</title>
+<link href="style/authority/login_css.css" rel="stylesheet"
+	type="text/css" />
+
+
+</head>
+<body>
+	<div id="login_center">
+		<div id="login_area">
+			<div id="login_box_user">
+				<div id="login_form">
+					<form id="submitForm" action="UserMangerServlet" method="post">
+						<div id="login_tip">
+							<span id="login_err" class="sty_txt2"></span>
+						</div>
+						<div>
+							用户编号：<input type="text" name="user_id" class="username" id="name" value="">
+						</div>
+						<div>
+							密&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password"
+								name="password" class="pwd" id="pwd" value="">
+						</div>
+						<div id="btn_area">
+							<input type="hidden" name="manager" value="login"/>
+							 <input type="submit" class="login_btn" id="login_sub" value="登  录">
+							<input type="reset" class="login_btn" id="login_ret" value="重 置">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display: none">
+		<script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540'
+			language='JavaScript' charset='gb2312'></script>
+	</div>
+</body>
+</html>
